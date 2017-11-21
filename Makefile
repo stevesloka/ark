@@ -21,7 +21,8 @@ BIN := ark
 PKG := github.com/heptio/ark
 
 # Where to push the docker image.
-REGISTRY ?= gcr.io/heptio-images
+# REGISTRY ?= gcr.io/heptio-images
+REGISTRY ?= stevesloka/ark
 
 # Which architecture to build - see $(ALL_ARCH) for options.
 ARCH ?= linux-amd64
